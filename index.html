@@ -50,19 +50,19 @@
         <ul>
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Skills</a></li>
+          <li><a href="#services">Blog</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#challenges">Coding Challenges</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
       <div class="social-links">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+        <a href="https://twitter.com/MatthewCoppin15"><i class="icofont-twitter"></i></a>
+        <a href="https://github.com/stuckform"><i class="icofont-github"></i></a>
+        <a href="https://www.instagram.com/coppingerdeveloper/" class="icofont-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/matthew-coppinger-305ba6202/"><i class="icofont-linkedin"></i></a>
       </div>
 
     </div>
@@ -84,7 +84,7 @@
           <img src="me.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Full Stack .NET &amp; Developer</h3>
+          <h3>Full Stack .NET Developer</h3>
           <p class="font-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
@@ -336,13 +336,13 @@
         <div class="col-lg-6">
           <h3 class="resume-title">Sumary</h3>
           <div class="resume-item pb-0">
-            <h4>Alice Barkley</h4>
+            <h4>Matthew Coppinger</h4>
             <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
             <p>
             <ul>
               <li>Portland par 127,Orlando, FL</li>
               <li>(123) 456-7891</li>
-              <li>alice.barkley@example.com</li>
+              <li>matt.kaizen@gmail.com</li>
             </ul>
             </p>
           </div>
@@ -611,6 +611,7 @@
     </div>
   </section><!-- End Portfolio Section -->
 
+
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container">
@@ -626,7 +627,7 @@
           <div class="info-box">
             <i class="bx bx-map"></i>
             <h3>My Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <p>209 Delancy st Charlotte, NC 28097</p>
           </div>
         </div>
 
@@ -635,11 +636,10 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-              <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-              <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-              <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+              <a href="https://twitter.com/MatthewCoppin15" class="twitter"><i class="icofont-twitter"></i><a>
+              <a href="https://github.com/stuckform" class="github"><i class="icofont-github"></i></a>
+              <a href="https://www.instagram.com/coppingerdeveloper/" class="instagram"><i class="icofont-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/matthew-coppinger-305ba6202/" class="linkedin"><i class="icofont-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -648,43 +648,38 @@
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email Me</h3>
-            <p>contact@example.com</p>
+            <p>matt.kaizen@gmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
+            <p>+1 (618)641-1556</p>
           </div>
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form id="form" method="post" role="form">
         <div class="form-row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
             <div class="validate"></div>
           </div>
           <div class="col-md-6 form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
             <div class="validate"></div>
           </div>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
           <div class="validate"></div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+          <textarea class="form-control" name="message" id=message rows="5" required data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
           <div class="validate"></div>
         </div>
-        <div class="mb-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="text-center"><button class="btn btn-dark" type="submit" id="button">Send Message</button></div>
       </form>
 
     </div>
@@ -707,9 +702,19 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/venobox.min.js"></script>
+  
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_giQ95j9RZ7cUFG18e4KOD')
+</script>
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+
+  <!--Emailjs-->
+  <script src="js/site.js"></script>
 
 </body>
 
