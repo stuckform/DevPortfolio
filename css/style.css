@@ -731,6 +731,8 @@ section .container {
   color: #fff;
 }
 
+
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -738,7 +740,7 @@ section .container {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+/* .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -768,7 +770,7 @@ section .container {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
+} */
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
