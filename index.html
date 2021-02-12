@@ -53,11 +53,11 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#challenges">Coding Challenges</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a  target=”_blank” href="#about">About</a></li>
+          <li><a  target=”_blank” href="#projects">Projects</a></li>
+          <li><a  target=”_blank” href="#challenges">Coding Challenges</a></li>
+          <li><a  target=”_blank” href="#blog">Blog</a></li>
+          <li><a  target=”_blank” href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -290,7 +290,7 @@
 
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-lg-4">
-          <div class="portfolio-wrap" type="button" data-toggle="modal" data-target="#tacocat">
+          <div class="portfolio-wrap" type="button" data-toggle="modal" data-target="#taco">
             <img src="img/tacocatt.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Taco Cat</h4>
@@ -330,7 +330,7 @@
           </div>
           
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-lg-4">
-            <div class="portfolio-wrap" type="button" data-toggle="modal" data-target="#superdog">
+            <div class="portfolio-wrap" type="button" data-toggle="modal" data-target="#mortgage">
               <img src="img/calculator_144x144.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Mortgage Calculator</h4>
@@ -484,13 +484,13 @@
 
       <!-- Modal body -->
       <div class="modal-body">
-        Modal body..
+        
       </div>
 
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" [href]="url">Check it out</button>
       </div>
 
     </div>
@@ -505,17 +505,18 @@
       <!-- Modal Header -->
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <p>Bug Tracker</p>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        Modal body..
+    
       </div>
 
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <a href="https://mcoppinger-blog.herokuapp.com/" type="button" class="btn btn-primary" >Check it out</a>
       </div>
 
     </div>
@@ -528,23 +529,157 @@
       
       <!-- Modal Header -->
       <div class="modal-header">
+        <h4 style="color: black;" class="modal-title"> The Code Cache Blog</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        Modal body..
+       <img src="img\lukas-hellebrand-unsplash.jpg" class="img-fluid" alt="">
+       <p style="color: aliceblue;">A blog about programming and technology</p> 
       </div>
 
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <a target="_blank" href="https://mcoppinger-blog.herokuapp.com/" type="button" class="btn btn-primary" >Check it out</a>
       </div>
 
     </div>
   </div>
+  </div>
 
+
+
+  <div class="modal fade" id="taco">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 style="color: black;" class="modal-title"> TacoCat</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <img src="" class="img-fluid" alt="">
+       <p style="color: black;">How do you reverse a string and validate it?</p> 
+      </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a target="_blank" href="https://tacocatfever.netlify.app/" type="button" class="btn btn-primary" >Check it out</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="fears">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 style="color: black;" class="modal-title"> Sum of All Fears</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <img src="" class="img-fluid" alt="">
+       <p style="color: rgb(8, 8, 8);">Are you ready to face the SUM of ALL Fears? (aka Numbers)</p> 
+      </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a target="_blank" href="https://sumthosefears.netlify.app/solve.html" type="button" class="btn btn-primary" >Check it out</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="fizz">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 style="color: black;" class="modal-title"> Fizz Buzz</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <img src="" class="img-fluid" alt="">
+       <p style="color: rgb(0, 0, 0);">An old math game turned into a coding challenge!</p> 
+      </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a target="_blank" href="https://thefizzbuzzchallenge.netlify.app/" type="button" class="btn btn-primary" >Check it out</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="sunset">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 style="color: black;" class="modal-title"> Sunset Hills</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <img src="" class="img-fluid" alt="">
+       <p style="color: rgb(0, 0, 0);">an algorithim to determine if the height of the building will allow a beautiful view of the sunset</p>
+      </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a target="_blank" href="https://watchthesunsethills.netlify.app/" type="button" class="btn btn-primary" >Check it out</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="mortgage">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 style="color: black;" class="modal-title"> Mortgage Calculator</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <img src="" class="img-fluid" alt="">
+       <p style="color: rgb(0, 0, 0);">Calculate your mortgage!</p>
+      </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a target="_blank" href="https://mortgage-loan-calculator.netlify.app/solve.html" type="button" class="btn btn-primary" >Check it out</a>
+      </div>
+
+    </div>
+  </div>
+</div>
   
 
 </body>
